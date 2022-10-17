@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+
+body{
+    background: linear-gradient(135deg, #acb6e5 10%, #86fde8 100%);
+
+}
+
+#red{
+    color: red;
+    font-size: 10px;
+}
+
+/* navbar */
+
+#nav{
+    position: -webkit-sticky;
+}
+
+#logo{
+    width: 180%;
+}
+
+#links{
+    align-items: center;
+    font-size: 18px;
+    gap:2rem
+}
+
+.bdy{
+    width: 100%;
+}
+
+/* signup */
+
+.full{
+    width: 80%;
+    height: 85vh;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    
+}
+
+.full:hover{
+    height: 105vh;
+}
+
+.full .right{
+    width: 50%;
+    background: #F9F9F9;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.full .right img{
+    width: 70%;
+    height: 50%;
+    margin-top: 10rem;
+    margin-left: 4rem;
+}
+
+.full .left{
+    width: 50%;
+    background: white;
+    border-top-right-radius: 2rem;
+    border-end-end-radius: 2rem;
+}
+
+.full .left .container3{
+    max-width: 350px;
+    margin: auto;
+}
+
+.full .left .container3 h2{
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.full .left .container3 .form .field input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #f8f9fa;
+}
+
+/* signin.css */
+
+#sign{
+    margin-top: 10%;
+    height: 50vh;
+}
+
+#sign .left .container3{
+    margin-top: 30px;
+} 
+
+#sign .left .container3 button{
+    margin-top: 40px;
+}
+
+#btn2{
+    background: #0563b4;
+    color: white;
+}
+
+#btn2:hover{
+    background: black;
+}
+
+@media screen and (max-width: 990px){
+    .full .left .container3 .form{
+        font-size: 10px;
+    }
+    .full .left .container3 .form #btn{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .full .left .container3 .form{
+        margin: auto;
+        width: 50%;
+    }
+    .full .left .container3 h2{
+        font-size: 15px;
+    }
+    .full .left .container3 .form #btn{
+        margin-top: 20px;
+        height: 20%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .full .left .container3 h2{
+        font-size: 12px;
+    }
+    .full .left .container3 .form #btn{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .full{
+        display: flex;
+        flex-direction: column;
+    }
+    .full .right{
+        display: none;
+    }
+    
+    .full .left{
+        width: 100%;
+        height: 90vh;
+        border-radius: 2rem;
+    }
+    .full .left .container3 h3{
+        font-size: 20px;
+    }
+}
+
+/* home */
+
+.comp{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.comp .hd h3{
+    font-size: 3em;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comp .hd h3 span{
+    color: #f8f9fa;
+}
+
+.comp .par h5{
+    font-size: 3em;
+    word-spacing: 2rem;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comp .par h5 span{
+    color: #7941b1;
+}
+
+
+@media screen and (max-width: 920px) {
+    
+.comp .par h5{
+    font-size: 2em;
+}
+
+}
+
+@media screen and (max-width: 750px) {
+    .comp .hd h3{
+        font-size: 2em;
+    }    
+    .comp .par h5{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .comp .hd h3{
+        font-size: 1.5em;
+    } 
+    .comp .par h5{
+        font-size: 1em;
+        word-spacing: 1rem;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .comp .hd h3{
+        font-size: 1em;
+    } 
+    .comp .par h5{
+        font-size: 10px;
+        font-weight: bolder;
+        word-spacing: 0.5rem;
+        letter-spacing: 1px;
+    }
+}
+
+
+
