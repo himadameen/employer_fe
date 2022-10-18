@@ -11,4 +11,6 @@
 <p>In UserList Page created a table where the users can create, update, and delete the employee details from the list. by fetching the API by using React Hooks method. It become easy to code.</p>
 <p>Installing dependencies like react-router-dom, react-navigation it become easy to finds the path and navigate the area correctly.</p>
 <p>All the details and render the UI component effectively by giving much custom styling as well responsive.</p>
+<div>Install node_modules to run the project <strong>NPM START</strong></div>
+
 <p>So, thus the process of projects</p>
